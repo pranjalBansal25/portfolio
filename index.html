@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harshal Nirgudkar</title>
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.jpg" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Harshal<span>Nirgudkar</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 d-flex flex-column justify-content-center"
+            data-aos="fade-up"
+          >
+            <h1>Hi, I'm <span>Harshal Nirgudkar</span></h1>
+            <h2>Full Stack Developer</h2>
+            <div class="hero-btns">
+              <a href="#projects" class="btn btn-primary me-3">View My Work</a>
+            </div>
+          </div>
+          <div
+  class="col-lg-6 hero-img position-relative p-0"
+  data-aos="fade-left"
+  data-aos-delay="200"
+>
+  <img
+    src="./images/1_vTLOUrJWoo4Kzj7ly8o0jA.png"
+    alt="Profile Image"
+    class="img-cover"
+  />
+</div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">About Me</h2>
+            <div class="section-divider"></div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img
+              src="./images/about.avif"
+              alt="About Me"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+          <div class="col-lg-8 mt-4 mt-lg-0" data-aos="fade-left">
+            <h3>Web Developer with 4+ Years of Experience</h3>
+            <p class="lead">
+              I specialize in creating responsive, user-friendly web experiences
+              that combine aesthetic appeal with technical excellence.
+            </p>
+            <p>
+              With a solid foundation in full-stack development, I've helped
+              businesses of all sizes establish their online presence through
+              clean, efficient code and thoughtful design. My passion lies in
+              crafting digital solutions that not only look great but also
+              perform exceptionally well across all devices.
+            </p>
+            <div class="row mt-4">
+              <div class="col-md-6">
+                <div class="about-item mb-3">
+                  <i class="fas fa-laptop-code"></i>
+                  <h4>Website Developer</h4>
+                  <p>
+                    Building beautiful, responsive websites that provide
+                    exceptional user experiences.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="about-item mb-3">
+                  <i class="fas fa-window-restore"></i>
+                  <h4>Web Application Developer</h4>
+                  <p>
+                    Developing functional web applications that solve real
+                    business problems.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">My Projects</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">Here are some of my recent works</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <!-- Project 1 -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="card project-card h-100">
+              <img
+                src="./images/emailProject.png"
+                class="card-img-top"
+                alt="E-commerce Email Template"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Responsive HTML Email for E-commerce</h5>
+                <p class="card-text">
+                  A responsive email template designed for product launches and
+                  promotions.
+                </p>
+                <div class="tech-stack">
+                  <span class="badge bg-primary">HTML</span>
+                  <span class="badge bg-primary">CSS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="card project-card h-100">
+              <img
+                src="./images/realEstateProject.png"
+                class="card-img-top"
+                alt="SaaS Landing Page"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Real Estate</h5>
+                <p class="card-text">
+                  A complete property management platform connecting buyers,
+                  sellers, and developers with real-time chat support.
+                </p>
+                <div class="tech-stack">
+                  <span class="badge bg-primary">HTML</span>
+                  <span class="badge bg-primary">CSS</span>
+                  <span class="badge bg-primary">Laravel</span>
+                  <span class="badge bg-primary">SQL</span>
+                  <span class="badge bg-primary">Bootstrap 5</span>
+                  <span class="badge bg-primary">JavaScript</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="card project-card h-100">
+              <img
+                src="./images/eCommerceProject.jpg"
+                class="card-img-top"
+                alt="Admin Dashboard"
+              />
+              <div class="card-body">
+                <h5 class="card-title">E-commerce Web Application</h5>
+                <p class="card-text">
+                  A robust e-commerce admin system to manage products, users,
+                  sales, reports, and integrate PhonePe for secure payments
+                </p>
+                <div class="tech-stack">
+                  <span class="badge bg-primary">React</span>
+                  <span class="badge bg-primary">Laravel</span>
+                  <span class="badge bg-primary">MySQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="card project-card h-100">
+              <img
+                src="./images/fintechProject.jpg"
+                class="card-img-top"
+                alt="Photographer Portfolio"
+              />
+              <div class="card-body">
+                <h5 class="card-title">FinTech – Loan Management System</h5>
+                <p class="card-text">
+                  A digital platform that streamlines loan processing, tracks
+                  repayments, and automates interest and EMI calculations.
+                </p>
+                <div class="tech-stack">
+                  <span class="badge bg-primary">Laravel</span>
+                  <span class="badge bg-primary">Angular</span>
+                  <span class="badge bg-primary">MySQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <div class="card project-card h-100">
+              <img
+                src="./images/tourismProject.jpg"
+                class="card-img-top"
+                alt="E-commerce Product Page"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tourism and Local Services</h5>
+                <p class="card-text">
+                  A digital guide offering curated information about a city's
+                  tourist spots, restaurants, accommodations, and local
+                  services.
+                </p>
+                <div class="tech-stack">
+                  <span class="badge bg-primary">Angular</span>
+                  <span class="badge bg-primary">Laravel</span>
+                  <span class="badge bg-primary">MySQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            <div class="card project-card h-100">
+              <img
+                src="./images/charityProject.webp"
+                class="card-img-top"
+                alt="Lead Capture Page"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Charity & Volunteer Management</h5>
+                <p class="card-text">
+                  A platform connecting food donors with local charities and
+                  communities in need to reduce hunger and food waste.
+                </p>
+                <div class="tech-stack">
+                  <span class="badge bg-primary">Angular</span>
+                  <span class="badge bg-primary">Laravel</span>
+                  <span class="badge bg-primary">MySQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">My Skills</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">Technologies I work with</p>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Left column for text-based skills -->
+          <div class="col-lg-3" data-aos="fade-right">
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <i class="fas fa-check-circle text-primary me-2"></i>HTML5
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-check-circle text-primary me-2"></i>CSS3
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-check-circle text-primary me-2"></i>Bootstrap
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-check-circle text-primary me-2"></i>JavaScript
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-check-circle text-primary me-2"></i>jQuery
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-check-circle text-primary me-2"></i>PHP
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-check-circle text-primary me-2"></i>MySQL
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-check-circle text-primary me-2"></i>Laravel
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-check-circle text-primary me-2"></i>Angular
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-check-circle text-primary me-2"></i>React
+              </li>
+            </ul>
+          </div>
+
+          <!-- Right column for skill icons -->
+          <div class="col-lg-9" data-aos="fade-left">
+            <div class="row text-center">
+              <div
+                class="col-4 col-md-4 skill-icon-box"
+                data-aos="zoom-in"
+                data-aos-delay="100"
+              >
+                <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                <h5>HTML5</h5>
+              </div>
+              <div
+                class="col-4 col-md-4 skill-icon-box"
+                data-aos="zoom-in"
+                data-aos-delay="200"
+              >
+                <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                <h5>CSS3</h5>
+              </div>
+              <div
+                class="col-4 col-md-4 skill-icon-box"
+                data-aos="zoom-in"
+                data-aos-delay="400"
+              >
+                <div class="skill-icon"><i class="fab fa-js"></i></div>
+                <h5>JavaScript</h5>
+              </div>
+              <div
+                class="col-4 col-md-4 skill-icon-box"
+                data-aos="zoom-in"
+                data-aos-delay="500"
+              >
+                <div class="skill-icon"><i class="fab fa-angular"></i></div>
+                <h5>Angular</h5>
+              </div>
+              <div
+                class="col-4 col-md-4 skill-icon-box"
+                data-aos="zoom-in"
+                data-aos-delay="600"
+              >
+                <div class="skill-icon"><i class="fab fa-laravel"></i></div>
+                <h5>Laravel</h5>
+              </div>
+              <div
+                class="col-4 col-md-4 skill-icon-box"
+                data-aos="zoom-in"
+                data-aos-delay="700"
+              >
+                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                <h5>SQL</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h3 class="footer-logo">Harshal<span>Nirgudkar</span></h3>
+            <p>
+              A passionate web developer focused on creating beautiful,
+              functional, and user-centered digital experiences.
+            </p>
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h4>Connect With Me</h4>
+            <div class="contact-item">
+              <a href="https://mail.google.com/mail/?view=cm&to=nirgudkarharshal@gmail.com" target="_blank">
+  <i class="fas fa-envelope"></i> nirgudkarharshal@gmail.com
+</a>
+
+
+              <a href="#"><i class="fas fa-phone"></i> 9303255606</a>
+              <a href="#"
+                ><i class="fas fa-map-marker-alt"></i> Indore, Madhya Pradesh</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-12 text-center">
+            <div class="copyright">
+              <p>&copy; 2023 Harshal Nirgudkar. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
